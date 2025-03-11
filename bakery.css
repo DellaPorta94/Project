@@ -9,8 +9,17 @@ body {
 }
 
 #reposteria{
-    background-color: aquamarine;
+    display: flex;
+    background-color: pink;
+    justify-content: center;
+    font-family: fantasy;
     flex-grow: 1;
+}
+
+.welcome_text {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .img {
@@ -18,13 +27,70 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-
 .image_1,
 .image_2,
 .image_3,
 .image_4 {
-    border: 2px solid blue;
-    border-radius: 35px;
+    display: flex;
+    border: 2px solid black;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.TDM,
+.TDFR, 
+.TDC,
+.sexy_cat {
+    display: flex;
     width: 150px;
     height: 150px;
+    border-radius: 15px;
 }
+
+.cake_title {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.tdc,
+.tdfr,
+.tdM,
+.tdDdL {
+    display: flex;
+    position: relative;
+    right: -20px;
+    width: 20%;
+    height: 20%;
+    justify-content: center;
+    font-size: small;
+    color: brown;
+    border: 2px solid red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
