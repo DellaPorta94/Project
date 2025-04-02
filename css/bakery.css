@@ -1,0 +1,65 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #000;
+    --primario: #f6c8c7;
+    --secundario: #f3ca4c;
+
+    --fuente: "Caveat", cursive;
+}
+
+/** Globales **/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  
+body {
+    background-color: var(--primario);
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 3.8rem;
+  }
+
+h2 {
+    font-size: 2.8rem;
+  }
+
+h3 {
+    font-size: 1.8rem;
+  }
+
+h1, h2, h3 {
+    text-align: center;
+  }
+
+/** Navegacion **/
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
